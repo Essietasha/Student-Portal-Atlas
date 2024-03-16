@@ -1,0 +1,286 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fff;
+}
+
+.maincontainer{
+    width: 100%;
+}
+
+.menuFlex{
+    height: 70px;
+    width: 100%;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.atlasLabeL{
+    font-size: 30px;
+    color: #001b7d;
+    margin-left: 10px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.menus{
+display: flex;
+gap: 30px;
+margin-right: 30px;
+}
+
+.menu{
+    cursor: pointer;
+}
+
+.menus button{
+    font-size: 16px;
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+    color: #001b7d;
+    font-weight: 600;
+}
+
+#hamburger{
+    height: 50%;
+    margin-top: 25%;
+}
+#closeHamburger{
+    height: 50%;
+    margin-top: 40%;
+}
+
+#hamburgerMenuCont{
+    width: 100%;
+    background-color: rgb(150, 1, 1);
+    color: #f4eded;
+    font-size: 20px;
+    padding: 40px 100px;
+}
+
+.hidden{
+    display: none;
+}
+
+.display{
+    display: block;
+}
+
+.hamburgerMenuFlex{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.linkLabels h5{
+    padding: 10px 0px;
+}
+
+.linkLabels a{
+    display: block;
+    text-decoration: none;
+    color: #c5c1c1;
+    line-height: 1.5;
+    font-size: 15px;
+}
+
+.supportBtn{
+    width: 100%;
+    margin-top: 50px;
+}
+
+#supportAtlas{
+    color: rgb(150, 1, 1);
+    border: 1px solid rgb(150, 1, 1);
+    border-radius: 5px;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+
+.collegeStore{
+    width: 100%;
+    margin-top: 30px;
+}
+
+#collegeStoreBtn{
+    background-color: #001b7d;
+    color: #fff;
+    border: 1px solid #001b7d;
+    border-radius: 5px;
+    padding: 10px 25px;
+    cursor: pointer;
+}
+
+.mainBackgroundMainPage {
+    width: 100%;
+    height: 650px;
+    margin: auto;
+    background-image: url(images/beautiful-smiling-woman-dressed-corporate-suit-holding-laptop-documents-smiling-camera.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.welcome{
+    font-size: 35px;
+    color: #fff;
+    font-weight: 600;
+    padding-top: 350px;
+    padding-left: 70px;
+}
+
+.studentportal{
+    font-size: 20px;
+    color: #fff;
+}
+
+.apply{
+    cursor: pointer;
+    text-decoration: none;
+    background-color: red;
+    color: #fff;
+    font-size: 16px;
+    border: 1px solid red;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-left: 100px;
+    margin-top: 20px;
+    padding: 10px 10px;
+}
+
+.apply:hover{
+    transition: 1s ease-out;
+    transform: scale(0.8);
+    background-color: black;
+    color: #fff;
+    border:  1px solid black;
+}
+
+.societal{
+    font-size: 40px;
+    font-weight: bold;
+    margin-right: 150px;
+    padding-top: 50px;
+    text-align: center;
+    color: #111;
+}
+
+.societalMission{
+    height: 550px;
+    width: 100%;
+    font-size: 30px;
+    color: #333;
+    padding: 20px 100px;
+    text-align: center;
+    line-height: 1.6;
+}
+
+.founded{
+    padding-top: 30px;
+}
+
+.more{
+    display: block;
+    text-decoration: none;
+    background-color: red;
+    color: #fff;
+    font-size:18px;
+    border: 1px solid red;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 35px;
+    margin-left: 280px;
+    padding: 12px 100px;
+    border-radius: 5px;
+}
+
+
+.bottompage {
+    width: 100%;
+    height: 450px;
+    margin: auto;
+    background-color:black;
+}
+
+.bottompageblock {
+    float: left;
+    width: 25%;
+    height: 100%;
+    padding-left: 20px;
+    padding-top: 80px;
+}
+
+.BPB1 h2{
+    color: beige;
+}
+
+.BPB1 P {
+    color: rgb(210, 210, 194);
+}
+
+.dotB {
+    height: 50px;;
+    width: 50px;
+    background-color:rgb(156, 56, 89);
+    border-radius: 50%;
+    color: rgb(255, 255, 243);
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+    font-family:Arial, Helvetica, sans-serif;
+    display: inline-block;
+    padding-top: 4px;
+}
+
+.dotBA {
+    padding-top: 0px;
+    background-color:beige;
+    color: black;
+    font-size: 38px;
+}
+
+.dotBP {
+    padding-top: 2px;
+    padding-left: 3px;
+    background-color:rgb(227, 227, 204);
+    color: rgb(39, 39, 167);
+    font-size: 38px;
+}
+
+.dotBG {
+    background-color:orangered;
+    color: beige;
+    font-size: 38px;
+}
+
+.BPB2 a{
+    color: rgb(210, 210, 194);
+}
+
+.BPB2 a:visited{
+    color: rgb(210, 210, 194);
+}
+
+.BPB2 a:hover{
+    color: palevioletred;
+}
+
+.dotsocials {
+    height: 40px;;
+    width: 40px;
+    background-color: rgb(109, 103, 103);
+    border-radius: 10%;
+    color: rgb(255, 255, 243);
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+    font-family:Arial, Helvetica, sans-serif;
+    display: inline-block;
+}

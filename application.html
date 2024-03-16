@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="application.css">
+    <link rel="stylesheet" href="studentportal.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application</title>
+</head>
+<body>
+    <div class="maincontainer">
+        <div class="menuFlex">
+            <div>
+                <button class="atlasLabeL">Atlas University</button></div>
+            <div class="menus">
+                <button class="menu">NEWS</button>
+                <button class="menu">ACADEMIC</button>
+                <button class="menu">CAMPUS LIFE</button>
+                <button class="menu">ADMISSION</button>
+                <button class="menu">VISIT</button>
+                <button class="menu loginmenu">LOGIN</button>
+            </div>
+        </div>
+
+
+        <div class="BackgroundMainPage">
+            <div class="applyCont">
+                <div class="imageCont">
+                    <img class="image"  src="images/future.jpg" alt="Atlas University">
+                    <h4>ATLAS UNIVERSITY</h4>
+                    <h5>APPLICATION PORTAL</h5>
+                </div>
+
+                <div class="applicationContent">
+                    <h4>Portal Registration</h4>
+                    <form id="form">
+                        
+                        <div class="formcontrol">
+                            <label for="surname">Surname</label>
+                            <input id="surnameInput" type="text" placeholder="Surname">  
+                        </div>
+
+                        <div class="formcontrol">
+                            <label for="firstname">First Name </label>
+                            <input id="firstNameInput" type="text" placeholder="First Name">                           
+                        </div>
+
+                        <div class="formcontrol">
+                            <label for="middleName">Middle Name </label>
+                            <input id="midNameInput" type="text" placeholder="Middle Name">                            
+                        </div>
+
+
+                        <div class="formcontrol">
+                            <label for="email">Email Address</label>
+                                <input id="email" type="email" placeholder="Email Address">                            
+                        </div>
+
+                        <div class="formcontrol">
+                            <label for="dob">Date of Birth  </label>
+                                <input id="dob" type="date">                                                       
+                        </div>
+
+
+                        <div class="formcontrol">
+                            <label for="gender">Gender  </label>
+                                <select id="gender" name="gender">
+                                  <option value="">Select</option>
+                                  <option value="single">Male</option>
+                                  <option value="married">Female</option>
+                                </select>
+                        </div>
+
+                        <div class="formcontrol">
+                            <label for="marital">Marital Status  </label>
+                                <select id="marital" name="marital">
+                                  <option value="">Select</option>
+                                  <option value="single">Single</option>
+                                  <option value="married">Married</option>
+                                </select>
+                        </div>
+                        
+                        <div class="formcontrol">
+                            <label for="programme">Programme  </label>
+                                <select id="programme" name="programme">
+                                  <option value="">Select</option>
+                                  <option value="undergraduate">Apply for an Undergraduate Course</option>
+                                  <option value="postgraduate">Apply for a Postgraduate Programme</option>
+                                  <option value="phd">Apply for a PhD  Programme</option>
+                                </select>
+                        </div>
+
+                        <div class="formcontrol">
+                            <label for="nationality">Nationality  </label>
+                                <select id="nationality" name="nationality">
+                                  <option value="">Select</option>
+                                  <option value="single">Nigerian</option>
+                                  <option value="married">Non-Nigerian</option>
+                                </select>
+                        </div>
+
+                        <div class="formcontrol">
+                            <label for="nin">NIN </label>
+                            <input id="nin" type="text" placeholder="NIN">                            
+                        </div>                        
+
+                        <div class="formcontrol">
+                            <label for="passport">Passport </label>
+                            <p class="upload">Please upload a passport photograph not more than 2MB</p>
+                            <input id="passport" type="file" placeholder="">                            
+                        </div>
+
+
+                        <div class="usernameAndPassword">
+                            After application, your matriculation number and password wil be sent to your registered email address.
+                        </div>
+                        <div class="proceed">
+                            <button id="proceedToApply">SUBMIT</button>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>        
+    </div>
+    <script src="application.js"></script>
+    <script src="studentportal.js"></script>
+</body>
+</html>
